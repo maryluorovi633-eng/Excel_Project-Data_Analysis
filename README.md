@@ -8,7 +8,7 @@ Both projects run on the same dataset: roughly **32,600 real job postings** for 
 
 | File | What it does | Core skill |
 |---|---|---|
-| [`Salary_Dashboard.xlsx`](./Salary_Dashboard.xlsx) | An interactive salary calculator — pick a job title, country, and employment type from dropdowns and get the median salary, charts, top job platfom, and a job count | **Power Query** + dynamic array formulas |
+| [`Salary_Dashboard.xlsx`](Project_1-Dashboard/Salary_Dashboard.xlsx) | An interactive salary calculator — pick a job title, country, and employment type from dropdowns and get the median salary, charts, top job platfom, and a job count | **Power Query** + dynamic array formulas |
 | [`Salary_Analysis.xlsx`](./Salary_Analysis.xlsx) | A deeper look at how salary relates to skills and country, using a proper data model | **Power Pivot / DAX** + PivotTables & Slicers |
 
 ## Why two separate projects
