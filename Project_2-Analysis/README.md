@@ -1,6 +1,6 @@
 # Salary vs. Skills Analysis — Power Pivot
 
-Where the [Dashboard](Project_1-Dashboard/README.md) project is about instant answers, this one is about digging into a real analytical question: **which skills actually correlate with a higher salary in data jobs, and does that answer change once you split by country or data job?**
+Where the [Dashboard](./Project_1-Dashboard/README.md) project is about instant answers, this one is about digging into a real analytical question: **which skills actually correlate with a higher salary in data jobs, and does that answer change once you split by country or data job?**
 
 ## What it does
 
