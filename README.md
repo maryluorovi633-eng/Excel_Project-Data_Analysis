@@ -1,6 +1,6 @@
 # 📊 Excel Data Analytics Portfolio
 
-Hi, I'm Maria G. Orozco. This repo holds two Excel projects I built while following [Luke Barousse's Data Analyst Bootcamp](https://www.youtube.com/@LukeBarousse) on YouTube. I wanted a portfolio piece that goes beyond "I know Excel formulas" and actually shows how I think through data — cleaning it, modeling it, and turning it into something someone could open and use.
+Hi, I'm Maria G. Orozco. This repo holds two Excel projects I built while following [Luke Barousse's Data Analyst Bootcamp](https://www.youtube.com/@LukeBarousse) on YouTube. I wanted a portfolio piece that goes beyond "I know Excel formulas" and actually shows how I think through data — cleaning it, modelling it, and turning it into something someone could open and use.
 
 Both projects run on the same dataset: roughly **32,600 real job postings** for data-related roles (Data Analyst, Data Scientist, Data Engineer, and more), with fields like job title, location, salary, platform, and required skills.
 
@@ -8,8 +8,8 @@ Both projects run on the same dataset: roughly **32,600 real job postings** for 
 
 | File | What it does | Core skill |
 |---|---|---|
-| [`Salary_Dashboard.xlsx`](Project_1-Dashboard/Salary_Dashboard.xlsx) | An interactive salary calculator — pick a job title, country, and employment type from dropdowns and get the median salary, charts, top job platfom, and a job count | **Power Query** + dynamic array formulas |
-| [`Salary_Analysis.xlsx`](./Salary_Analysis.xlsx) | A deeper look at how salary relates to skills and country, using a proper data model | **Power Pivot / DAX** + PivotTables & Slicers |
+| [`Salary_Dashboard.xlsx`](Project_1-Dashboard/Salary_Dashboard.xlsx) | An interactive salary calculator — pick a job title, country, and employment type from dropdowns and get the median salary, charts, top job platform, and a job count | **Power Query** + dynamic array formulas |
+| [`Salary_Analysis.xlsx`](Project_2-Analysis/Salary_Analysis.xlsx) | A deeper look at how salary relates to skills and country, using a proper data model | **Power Pivot / DAX** + PivotTables & Slicers |
 
 ## Why two separate projects
 
