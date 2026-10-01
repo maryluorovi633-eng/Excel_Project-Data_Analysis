@@ -1,6 +1,6 @@
 # Salary vs. Skills Analysis — Power Pivot
 
-Where the [Dashboard](./Salary-Dashboard-README.md) project is about instant answers, this one is about digging into a real analytical question: **which skills actually correlate with a higher salary in data jobs, and does that answer change once you split by country or data job?**
+Where the [Dashboard](Project_1-Dashboard/README.md) project is about instant answers, this one is about digging into a real analytical question: **which skills actually correlate with a higher salary in data jobs, and does that answer change once you split by country or data job?**
 
 ## What it does
 
@@ -8,16 +8,16 @@ Two Power Query queries — `data_jobs_salary` and `data_jobs_skills` — are lo
 
 | Pivot | Question it answers |
 |---|---|
-| `Salary_Vs_Skills` | How does median salary and the average number of skills required per posting vary by job title? |
+| `Salary_Vs_Skills` | How do median salary and the average number of skills required per posting vary by job title? |
 | `Salary_Analysis` | How does median salary for each job title split between US and non-US postings? |
-| `Skill_Job_Analysis` | How often does each individual skill (SQL, Python, Excel, Tableau...) show up across postings? |
-| `Skill_Salary_Analysis` | For each skill, what's the median salary of postings that require it, alongside how common that skill is? |
+| `Skill_Job_Analysis` | How often does each skill (SQL, Python, Excel, Tableau...) show up across postings? |
+| `Skill_Salary_Analysis` | For each skill, what's the median salary of postings that require it, and how common is that skill? |
 
 **Slicers** for Job Title and Country sit alongside the pivots so you can filter all of them interactively instead of reading four static tables.
 
 ## Why Power Pivot instead of just PivotTables on a table
 
-The two queries needed to relate to each other (postings ↔ skills) without duplicating rows or forcing a messy VLOOKUP setup, and I wanted the "Skill Likelihood" and median-salary figures to be real **DAX measures** that recalculate correctly under any filter combination — job title, country, or both at once — rather than static numbers I'd have to rebuild by hand every time the question changed. That's exactly the problem Power Pivot's data model is built to solve.
+The two queries needed to relate to each other (postings ↔ skills) without duplicating rows or forcing a messy VLOOKUP setup. I wanted the "Skill Likelihood" and median-salary figures to be real **DAX measures** that recalculate correctly under any filter combination — job title, country, or both at once — rather than static numbers I'd have to rebuild by hand every time the question changed. That's exactly the problem Power Pivot's data model is built to solve.
 
 ## A few numbers that came out of it
 
