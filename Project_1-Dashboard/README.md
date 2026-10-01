@@ -1,4 +1,4 @@
-# 💼 Data Job Salary Dashboard — Power Query
+# Data Job Salary Dashboard — Power Query
 
 An interactive, dropdown-driven salary calculator built on top of a raw dataset of roughly **32,600 data job postings**. The goal was simple: let someone with zero Excel experience answer "what does a Data Engineer or another job title listed in the US or any other country as a full-timer or another employment type make?" in three clicks, without touching a formula.
 
