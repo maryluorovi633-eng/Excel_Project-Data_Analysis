@@ -1,4 +1,4 @@
-# 📊 Excel Data Analytics Portfolio
+# Excel Data Analytics Portfolio
 
 Hi, I'm Maria G. Orozco. This repo holds two Excel projects I built while following [Luke Barousse's Data Analyst Bootcamp](https://www.youtube.com/@LukeBarousse) on YouTube. I wanted a portfolio piece that goes beyond "I know Excel formulas" and actually shows how I think through data — cleaning it, modelling it, and turning it into something someone could open and use.
 
